@@ -14,14 +14,14 @@ public class Main{
 		System.out.println("Coucou toi, essaye de fetch !");
 		System.out.println("Oui c'est moi, le bg et oui !!");
 		
-		URLConnection con = new URL("http://maps...").openConnection();
+		/*URLConnection con = new URL("http://maps...").openConnection();
 		InputStream is = con.getInputStream();
 		byte bytes[] = new byte[con.getContentLength()];
 		is.read(bytes);
 		is.close();
 		Toolkit tk = getToolKit();
 		Image map = tk.createImage(bytes);
-		tk.prepareImage(map, -1, -1, null);
+		tk.prepareImage(map, -1, -1, null);*/
 	}
 
 }
